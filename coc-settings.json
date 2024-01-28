@@ -18,5 +18,20 @@
   },
   "coc.preferences.formatOnSaveFiletypes": [
 	"dart"
-  ]
+  ],
+  "workspace.ignoredFolders": [
+      "$HOME",
+      "$HOME/.cargo/**",
+      "$HOME/.rustup/**"
+  ],
+  "rust-analyzer.enable": {
+    "type": "boolean",
+    "markdownDescription": "Enable `coc-rust-analyzer`",
+    "default": true
+  },
+  "rust-analyzer.updates.checkOnStartup": {
+    "type": "boolean",
+    "default": true,
+    "markdownDescription": "Auto-check rust-analyzer updates on startup"
+  }
 }
