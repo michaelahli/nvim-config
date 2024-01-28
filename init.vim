@@ -13,6 +13,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-media-files.nvim'
+Plug 'tpope/vim-fugitive'
 
 Plug 'terramate-io/vim-terramate'
 
