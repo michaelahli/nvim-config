@@ -94,7 +94,9 @@ function! s:show_documentation()
   endif
 endfunction
 
-nnoremap <leader>ff :lua require('telescope.builtin').find_files({ cwd = vim.fn.getcwd() })<CR>
+nnoremap <leader>fa <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>ff <cmd>Telescope git_files<cr>
+nnoremap <leader>fc :lua require('telescope.builtin').find_files({ cwd = vim.fn.getcwd() })<CR>
